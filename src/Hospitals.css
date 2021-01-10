@@ -1,0 +1,23 @@
+.page__hospitals {
+	padding: 40px;
+}
+
+.page__hospitals > h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hospital_rows {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.infoBox {
+	flex: 1;
+}
+
+.infoBox__buttons {
+	display: flex;
+	justify-content: space-between;
+}

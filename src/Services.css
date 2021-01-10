@@ -1,0 +1,28 @@
+.page__services {
+	padding: 45px;
+	background-image: linear-gradient(to bottom, lightgray, #f5f6fa);
+	margin-bottom: 20px;
+}
+
+.services_text {
+	margin-bottom: 30px;
+}
+
+.services_text > h4 {
+	text-align: center;
+}
+
+.services_buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+.services_buttons:not(:last-child) {
+	margin-right: 15px;
+}
+
+.infoBox:not(:last-child) {
+	margin-right: 10px;
+}

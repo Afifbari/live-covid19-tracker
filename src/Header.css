@@ -1,0 +1,11 @@
+.page__nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.page__nav-right > Button {
+	margin-left: 10px;
+}
