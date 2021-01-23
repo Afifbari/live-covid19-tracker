@@ -87,8 +87,6 @@ function App() {
 
 	return (
 		<div>
-			<Header />
-			<Services />
 			<div className="covidUpdate">
 				<div className="covidUpdate__header">
 					<h2>COVID-19 Live Update</h2>
@@ -168,7 +166,6 @@ function App() {
 					</Card>
 				</div>
 			</div>
-			<Hospitals />
 		</div>
 	);
 }
