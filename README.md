@@ -1,8 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a live covid-19 tracker worldwide. You can select through different countries to see that countries respective cases.
+
+The upper text of each live status shows the new cases of the present day. And the lower text of each live status shows the total cases for the selected country option.
+
+\*\*\* The live case status for the present day is not updated regularly by the data provider "https://disease.sh/v3/covid-19/countries/" and so sometimes the live data for that day may show 0 for some countries.
+
+## Live Demo:
+
+https://covid19-liveresult-tracker.netlify.app/
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the required dependencies for the project.
 
 ### `npm start`
 
